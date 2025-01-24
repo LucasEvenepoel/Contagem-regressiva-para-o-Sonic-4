@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #0143d7;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    /* Para centralizar os itens */
+    align-items: center;
+    font-size: 44px;
+}
+
+.countdown>p {
+    margin: 0 10px;
+    /* Adiciona um pouco de espaço entre os itens */
+}
+
+.days {
+    margin-right: 20px;
+    /* Adiciona um espaço entre dias e os outros tempos */
+}
+
+/* Rodapé */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+    width: 100%;
+    background-color: black;
+    color: #0143d7;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
